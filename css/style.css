@@ -3543,7 +3543,40 @@ canvas {
   }
 
 
-  @media screen and (max-width:425px) {
+  @media screen and (max-width:656px) {
+    .header {
+            line-height: 0;
+            position: fixed;
+            top: 0;
+            z-index: 99;
+            height: 60px;
+        }
+    
+        .inHeader img {
+            width: 60px;
+            margin-top: 16px;
+        }
+    
+        .section5 .inbox5 h2 {
+            font-size: 32px;
+        }
+    
+        .iconBox li {
+            width: 32%;
+            vertical-align: top;
+            margin: 0;
+            float: none;
+            display: inline-block;
+        }
+    
+        .iconBox li div p:nth-child(1) {
+            font-size: 12px;
+            margin: 20px 0 5px;
+        }
+    
+        .iconBox li div p:nth-child(2) {
+            font-size: 10px;
+        }
     .page1_txt {
         font-size:14px;
         top: 55%;
@@ -3586,13 +3619,7 @@ canvas {
         line-height: 10px;
     }
 
-    .header {
-        line-height: 0;
-        position: fixed;
-        top: 0;
-        z-index: 99;
-        height: 60px;
-    }
+
 
 
     .outer-menu .menu>div>div>ul>li>a{
@@ -3602,26 +3629,6 @@ canvas {
     .outer-menu .menu>div>div>ul>li.subli {
         margin: 0 5px;
     }
-
-    .inHeader img{
-        margin-top: 10px;
-    }
-
-    .iconBox li{
-        width: 32%;
-        vertical-align: top;
-        margin: 0;
-        float: none;
-            display: inline-block;
-    }
-    .iconBox li div p:nth-child(1){
-        font-size: 12px;
-        margin: 20px 0 5px 0;
-    }
-
-        .iconBox li div p:nth-child(2){
-            font-size: 10px;
-        }
 
   
     .right_box p:nth-child(5) .jj {
@@ -3675,11 +3682,6 @@ canvas {
         min-height: 240px;
     }
 
-
-    .section5 .inbox5 h2{
-        font-size: 32px;
-    }
-
     .tag{
         font-size: 12px;
     }
@@ -3720,8 +3722,13 @@ canvas {
     }
 
     .footerBox img{
-        width:55%;
+        width:110px;
+        
     }
+
+        .footerBox div{
+            margin-left: 0;
+        }
 
     .footerBox p {
         font-size: 10px;

@@ -15,7 +15,8 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function () {
-
+    new WOW().init();
+     
     $(".topbtnBox #topBtn").click(function () {
         $("html").animate({
             scrollTop: 0
