@@ -12,13 +12,9 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
     <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-    <script src="http://code.jquery.com/jquery-latest.min.js" defer></script>
-    <script type="text/javascript" src="./js/main.js" defer></script>
-    <script type="text/javascript" src="./js/wow.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js" ></script>
 
 </head>
 
@@ -429,26 +425,13 @@
         </div>
     </div>
 
+
+    <script src="https://code.jquery.com/jquery-latest.min.js" defer></script>
+    <script type="text/javascript" src="./js/main.js" defer></script>
+    <script type="text/javascript" src="./js/wow.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
     <script>
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3, //640~1024 해상도 외 레이아웃 뷰 개수
-            spaceBetween: 20, //위 slidesPerview 여백
-            pagination: true, // pager 여부
-            breakpoints: { //반응형 조건 속성
-                650: { //650 이상일 경우
-                    slidesPerView: 1,
-                    spaceBetween: 20
-                },
-                1024: {
-                    slidesPerView: 2,
-                    spaceBetween: 20
-                },
-            },
-            navigation: {   // 버튼 사용자 지정
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
+       
         
     </script>
 
